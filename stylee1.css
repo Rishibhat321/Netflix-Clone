@@ -1,0 +1,164 @@
+body{
+    background:rgba(0, 0, 0, 0.6) url("netflix\ bg.jpg");
+    height:100%;
+    max-width:100%;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.nav{
+    height:10vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right:45px;
+    padding-top: 10px;
+}
+.logo{
+    width:14%; 
+    color:#e50914;
+}
+.btn{
+   background-color: #e50914;
+   color:white;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   padding-left: 20px;
+   padding-right: 20px;
+   border-radius:5px;
+   cursor: pointer;
+}
+.btn > a{
+    color:white;
+}
+
+.container{
+    display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   flex:1;
+    margin-top:150px;
+}
+ 
+.container > .main-container > .title1{
+    color:white;
+    font-size: 3.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container > .main-container > .title2{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+ 
+.container > .main-container > .title3{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+  
+.gmail{
+    display:flex;
+    flex-direction: row;
+    flex:1;
+    flex-wrap: wrap;
+    gap:5px;
+}
+.email{
+    width:400px;
+   height:50px;
+    border-radius: 2%;
+    margin-bottom: -5px;
+} 
+ .button{
+    margin-bottom: 3px;
+    font-size: 1.5rem;
+   font-weight: 500;
+   padding: 0.75rem 1.5rem;
+   width:auto;
+  background-color: #e50914;
+  color:whitesmoke;
+  position:relative;
+  border-radius: 2%;
+} 
+
+
+.tv{
+    width:100%;  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex:1;
+    background-color:#4e1609;
+    margin-top:110px;
+    gap:200px;
+    
+}
+
+.TV{
+    height:300px;
+    width:400px;
+}
+.ray,.smart{
+    color:white;
+}
+.ray{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.smart{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.AnyTime{  
+    background-color: black;
+    height:100%;
+    color:white;
+    display:flex;
+    flex-direction:row;
+    flex:1;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    gap:200px;
+}
+
+.free{
+    height:55px;
+    width:300px;
+    color:white;
+    background-color: #e50914;
+    font-size: 1.5em;
+    border-radius:2%;
+}
+
+.Subscription{
+    height:220px;
+    width:300px;  
+}
+
+.call{
+    margin-top:-230px;
+    margin-left:-70px;
+    margin-right:1050px;
+    
+}
+
+.ques{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex:1;
+    gap:130px;
+    margin-top:-350px;
+    margin-right:450px;  
+}

@@ -1,0 +1,166 @@
+
+ body,html{
+    background-color: #181818;
+ }
+ 
+ .nav{
+  margin-top: -10px; 
+    height:10vh;
+    width:95%;
+    display:flex;
+    flex-direction: row;
+    flex:1;
+    justify-content: space-between;   
+    align-items: center;
+    padding-left: 20px;
+    padding-right:45px;
+    padding-top: 10px;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0.6, 0.8);  
+    position:fixed;
+    z-index: 1;
+    margin-left:-5px;
+   
+}
+
+.logo{
+    width:14%; 
+    color:#e50914;
+   
+}
+
+  .btn{
+      background-color: black;
+    color:white;
+    padding-top: 8px;
+    border:1px solid white;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:5px;
+    cursor: pointer;
+   
+ }
+ span> .limit{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    margin-right:-10px;
+ }
+
+.expert{
+    margin-left:25px;
+}
+.expert>.like{
+    font-size: 3.5em;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.like1{
+    font-size: 1em;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:-18px;
+}
+
+
+.movie{
+    display:flex;
+    width:100%;
+    flex-direction: row;
+     flex:1; 
+    gap:5px;
+    margin-left:10px;
+}
+
+.bad{
+  height:300px;
+  width:240px;  
+}
+
+.bad{
+ transition: transform 450ms; 
+}
+.bad:hover{
+  transform: scale(1.08);
+}
+
+ .sho{
+
+  display:flex;
+    color:white;
+    flex:1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+   margin-left:20px;
+}
+.main{
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.poster{
+  height:300px;
+  width:240px;  
+}
+
+/*foggy*/
+.foggy{
+filter:blur(10px);
+}
+
+.anime{
+  display:flex;
+  color:whitesmoke;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+.more{
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.film{
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.but{
+  
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+   width:auto;
+   background-color: #e50914;
+   color:whitesmoke;
+   position:relative;
+   border-radius: 2%;
+}
+.read{
+  margin-top: 105px;
+  color:grey;
+  margin-left:50px;
+}
+
+.ques{
+  color:grey;
+  margin-left:50px;
+}
+.call{
+  color:grey;
+   display:flex;
+   justify-content: flex start;
+   align-items: center;
+   flex:1;
+   flex-wrap: wrap;
+   flex-direction: row;
+   gap:100px;
+   margin-left:50px;
+   
+}
